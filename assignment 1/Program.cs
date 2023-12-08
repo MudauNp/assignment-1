@@ -8,12 +8,12 @@ class BeerSong
         {
             Console.WriteLine($"{bottles} bottles of beer on the wall, {bottles} bottles of beer.");
             Console.WriteLine($"Take one down and pass it around, {bottles - 1} {(bottles - 1 == 1 ? "bottle" : "bottles")} of beer on the wall.");
-                Console.WriteLine();
+                Console.Write("");
         }
           Console.WriteLine("1 bottle of beer on the wall, 1 bottle of beer");
     }
 }
-
+//
 class Program
 
 {
